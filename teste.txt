@@ -1,0 +1,31 @@
+  document.getElementById('cor5').addEventListener('click', function(e){
+    if(document.getElementById('base').checked){
+        document.getElementById('corbase').style.fill = "#000";
+        document.getElementById('corbasecostas').style.fill = "#000";
+        document.getElementById('CB').style.backgroundColor = "#000";
+    }if(document.getElementById('gola1').checked){
+        document.getElementById('golaE').style.fill = "#000";
+        document.getElementById('ge').style.backgroundColor = "#000";
+        document.getElementById('golaEE').style.fill = "#000";
+    }if(document.getElementById('punho').checked){
+        document.getElementById('punho2').style.fill = "#000";
+        document.getElementById('punho1').style.fill = "#000";
+        document.getElementById('PU').style.backgroundColor = "#000";
+    }if(document.getElementById('vista').checked){
+        document.getElementById('manga').style.fill = "#000";
+        document.getElementById('manga1').style.fill = "#000";
+        document.getElementById('VE').style.backgroundColor = "#000";
+    }if(document.getElementById('botoes').checked){
+        document.getElementById('botao').style.fill = "#000";
+        document.getElementById('BT').style.backgroundColor = "#000";
+    }if(document.getElementById('gola2').checked){   
+        document.getElementById('golaI').style.fill = "#000";
+        document.getElementById('gi').style.backgroundColor = "#000";
+    }if(document.getElementById('vista1').checked){
+        document.getElementById('peitilho1').style.fill = "#000";
+        document.getElementById('VD').style.backgroundColor = "#000";
+    }if(document.getElementById('bolsobtn').checked){
+        document.getElementById('peitilho2').style.fill = "#000";
+        document.getElementById('BSF').style.backgroundColor = "#000";
+    }
+      });
